@@ -68,6 +68,7 @@ function updateHeight(x,y){
 
 function readHeight(data){
   height = data.val();
+  console.log(height);
   balloon.x = height.x;
   balloon.y = height.y;
 }
