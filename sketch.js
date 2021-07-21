@@ -3,6 +3,7 @@ var balloon,balloonImage1,balloonImage2;
 var database
 var position
 var height
+var balloon.position
 
 function preload(){
    bg =loadImage("cityImage.png");
